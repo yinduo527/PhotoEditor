@@ -29,7 +29,6 @@ public class AviaryBottomBarViewFlipper extends ViewFlipper implements OnClickLi
 		void onBottomBarItemClick( int id );
 	}
 
-	private View mLogo;
 	private OnViewChangingStatusListener mListener;
 	private OnBottomBarItemClickListener mBottomClickListener;
 
@@ -39,15 +38,6 @@ public class AviaryBottomBarViewFlipper extends ViewFlipper implements OnClickLi
 
 	public AviaryBottomBarViewFlipper( Context context, AttributeSet attrs ) {
 		super( context, attrs );
-	}
-	
-	@Override
-	protected void onFinishInflate() {
-		
-		mLogo = findViewById( R.id.aviary_white_logo );
-		mLogo.setOnClickListener( this );
-		
-		super.onFinishInflate();
 	}
 
 	public void setOnViewChangingStatusListener( OnViewChangingStatusListener listener ) {
@@ -147,10 +137,7 @@ public class AviaryBottomBarViewFlipper extends ViewFlipper implements OnClickLi
 	public HorizontalVariableListView getToolsListView() {
 		return (HorizontalVariableListView) findViewById( R.id.aviary_tools_listview );
 	}
-	
-	public void hideLogo() {
-		findViewById( R.id.aviary_white_logo ).setVisibility( View.INVISIBLE );
-	}
+
 
 	@Override
 	public void onClick( View v ) {

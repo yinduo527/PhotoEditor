@@ -367,7 +367,7 @@ import com.aviary.android.feather.widget.AviaryToast;
  * @author alessandro
  */
 public class FeatherActivity extends MonitoredActivity implements OnToolbarClickListener, OnImageDownloadListener, OnToolListener,
-		FeatherContext, OnBitmapChangeListener, OnItemClickedListener, OnBottomBarItemClickListener {
+		FeatherContext, OnBitmapChangeListener, OnItemClickedListener {
 
 	private static final int ALERT_CONFIRM_EXIT = 0;
 	private static final int ALERT_DOWNLOAD_ERROR = 1;
@@ -708,13 +708,6 @@ public class FeatherActivity extends MonitoredActivity implements OnToolbarClick
 		mToolsList.setOverScrollMode( HorizontalVariableListView.OVER_SCROLL_ALWAYS );
 		mToolsList.setAdapter( null );
 
-		mBottomBarFlipper.setOnBottomBarItemClickListener( this );
-
-		LocalDataService dataService = mMainController.getService( LocalDataService.class );
-		
-		if ( dataService.getIntentContainsKey( Constants.EXTRA_WHITELABEL ) ) {
-			mBottomBarFlipper.hideLogo();
-		}
 	}
 
 	@Override
@@ -905,13 +898,6 @@ public class FeatherActivity extends MonitoredActivity implements OnToolbarClick
 		}
 	}
 
-	@SuppressWarnings ( "deprecation" )
-	@Override
-	public void onBottomBarItemClick( int id ) {
-		if ( id == R.id.aviary_white_logo ) {
-			showDialog( ALERT_ABOUT );
-		}
-	}
 
 	/**
 	 * Load an image using an async task.

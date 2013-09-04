@@ -28,18 +28,6 @@
             android:layout_height="0dip"
             android:layout_weight="1" />
 
-        <LinearLayout
-            style="?attr/aviaryBottomBarLogoContainerStyle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0" >
-
-            <ImageView
-                android:id="@+id/aviary_white_logo"
-                style="?attr/aviaryBottomBarLogoImageStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-        </LinearLayout>
     </LinearLayout>
 
 </com.aviary.android.feather.widget.AviaryBottomBarViewFlipper>

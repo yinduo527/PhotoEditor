@@ -16,6 +16,7 @@
     <orderEntry type="jdk" jdkName="Android 4.2 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="aviary_libs" level="project" />
+    <orderEntry type="library" name="aviary_default_effects" level="project" />
     <orderEntry type="module-library" scope="PROVIDED">
       <library>
         <CLASSES>
