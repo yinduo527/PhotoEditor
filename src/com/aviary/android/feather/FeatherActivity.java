@@ -1111,7 +1111,7 @@ public class FeatherActivity extends MonitoredActivity implements OnToolbarClick
 		mListEntries = listEntries;
 		LocalDataService dataService = mMainController.getService( LocalDataService.class );
 		
-		mToolsList.setAdapter( new ListAdapter( this, mListEntries, dataService.getIntentContainsKey( Constants.EXTRA_WHITELABEL ) ) );
+		mToolsList.setAdapter( new ListAdapter( this, mListEntries, true ) );
 		mToolsList.setOnItemClickedListener( this );
 	}
 
