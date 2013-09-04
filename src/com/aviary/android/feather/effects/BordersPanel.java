@@ -131,7 +131,7 @@ public class BordersPanel extends AbstractContentPanel implements ViewFactory, O
 
 	protected AviaryImageSwitcher mImageSwitcher;
 
-	private boolean mExternalPacksEnabled = true;
+	private boolean mExternalPacksEnabled = false;
 
 	protected MoaActionList mActions = null;
 
@@ -165,7 +165,7 @@ public class BordersPanel extends AbstractContentPanel implements ViewFactory, O
 	protected int mListFirstValidPosition = 0;
 
 	// display the "get more" view
-	private boolean mShowGetMoreView = true;
+	private boolean mShowGetMoreView = false;
 
 	protected Bitmap updateArrowBitmap;
 
@@ -1498,28 +1498,6 @@ public class BordersPanel extends AbstractContentPanel implements ViewFactory, O
 			
 			int index = 0;
 			int pack_index = 0;
-			
-			// featured external packs
-			if ( mExternalPacksEnabled ) {
-				int size = Math.min( mFeaturedCount, availablePacks.length );
-				if( size > 0 ) {
-					for( int i = size - 1; i >= 0; i-- ) {
-						FeatherPack pack = availablePacks[i];
-						ExternalPlugin plugin = (ExternalPlugin) PluginFactory.create( getContext().getBaseContext(), pack, mPluginType );
-						final CharSequence packagename = plugin.getPackageName();
-						final CharSequence label = plugin.getPackageLabel();
-						final EffectPack effectPack = new EffectPack( EffectPack.EffectPackType.EXTERNAL, packagename, label, null, null, PluginService.ERROR_NONE, null, plugin );
-						result.add( effectPack );
-						mExternalCount++;
-						index++;
-						
-					}
-				}
-			}
-			
-			if( mExternalCount > 0 ) {
-				result.add( new EffectPack( EffectPack.EffectPackType.RIGHT_DIVIDER ) );
-			}
 			
 			if( !isActive() ) return result;
 
