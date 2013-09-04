@@ -133,10 +133,6 @@ public class AbstractPanelLoaderService extends BaseContextService {
 				
 				new ToolEntry( FilterLoaderFactory.Filters.EFFECTS, R.drawable.aviary_tool_ic_effects, R.string.feather_effects ),
 				
-				new ToolEntry( FilterLoaderFactory.Filters.BORDERS, R.drawable.aviary_tool_ic_frames, R.string.feather_borders ),
-				
-				new ToolEntry( FilterLoaderFactory.Filters.STICKERS, R.drawable.aviary_tool_ic_stickers, R.string.feather_stickers ),
-				
 				new ToolEntry( FilterLoaderFactory.Filters.CROP, R.drawable.aviary_tool_ic_crop, R.string.feather_crop ),
 				
 				new ToolEntry( FilterLoaderFactory.Filters.ADJUST, R.drawable.aviary_tool_ic_orientation, R.string.feather_adjust ),
