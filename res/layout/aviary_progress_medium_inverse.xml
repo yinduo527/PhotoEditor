@@ -20,6 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dip"
         android:text="@string/feather_loading_title"
-        android:textAppearance="?attr/textAppearanceMediumInverted" />
+        android:textAppearance="?attr/aviaryTextAppearanceMediumInverted" />
 
 </LinearLayout>

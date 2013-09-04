@@ -189,15 +189,15 @@
 		<item name="aviaryToastExitAnimation">@anim/aviary_toast_exit</item>
         
         <!-- test styles -->
-        <item name="textAppearance">@style/AviaryTextAppearance</item>
-        <item name="textAppearanceLarge">@style/AviaryTextAppearance.Large</item>
-        <item name="textAppearanceMedium">@style/AviaryTextAppearance.Medium</item>
-        <item name="textAppearanceSmall">@style/AviaryTextAppearance.Small</item>
-        <item name="textAppearanceSmallNoSelection">@style/AviaryTextAppearance.Small.NoSelected</item>
-        <item name="textAppearanceInverted">@style/AviaryTextAppearance.Inverted</item>
-        <item name="textAppearanceLargeInverted">@style/AviaryTextAppearance.Inverted.Large</item>
-        <item name="textAppearanceMediumInverted">@style/AviaryTextAppearance.Inverted.Medium</item>
-        <item name="textAppearanceSmallInverted">@style/AviaryTextAppearance.Inverted.Small</item>
+        <item name="aviaryTextAppearance">@style/AviaryTextAppearance</item>
+        <item name="aviaryTextAppearanceLarge">@style/AviaryTextAppearance.Large</item>
+        <item name="aviaryTextAppearanceMedium">@style/AviaryTextAppearance.Medium</item>
+        <item name="aviaryTextAppearanceSmall">@style/AviaryTextAppearance.Small</item>
+        <item name="aviaryTextAppearanceSmallNoSelection">@style/AviaryTextAppearance.Small.NoSelected</item>
+        <item name="aviaryTextAppearanceInverted">@style/AviaryTextAppearance.Inverted</item>
+        <item name="aviaryTextAppearanceLargeInverted">@style/AviaryTextAppearance.Inverted.Large</item>
+        <item name="aviaryTextAppearanceMediumInverted">@style/AviaryTextAppearance.Inverted.Medium</item>
+        <item name="aviaryTextAppearanceSmallInverted">@style/AviaryTextAppearance.Inverted.Small</item>
     </style>
 
     <!-- Custom dialogs style -->
@@ -212,15 +212,15 @@
         <item name="aviaryPrimaryButtonStyle">@style/AviaryWidget.Button</item>
         <item name="aviarySecondaryButtonStyle">@style/AviaryWidget.Button.Secondary</item>       
         <!-- test styles -->
-        <item name="textAppearance">@style/AviaryTextAppearance</item>
-        <item name="textAppearanceLarge">@style/AviaryTextAppearance.Large</item>
-        <item name="textAppearanceMedium">@style/AviaryTextAppearance.Medium</item>
-        <item name="textAppearanceSmall">@style/AviaryTextAppearance.Small</item>
-        <item name="textAppearanceSmallNoSelection">@style/AviaryTextAppearance.Small.NoSelected</item>
-        <item name="textAppearanceInverted">@style/AviaryTextAppearance.Inverted</item>
-        <item name="textAppearanceLargeInverted">@style/AviaryTextAppearance.Inverted.Large</item>
-        <item name="textAppearanceMediumInverted">@style/AviaryTextAppearance.Inverted.Medium</item>
-        <item name="textAppearanceSmallInverted">@style/AviaryTextAppearance.Inverted.Small</item>         
+        <item name="aviaryTextAppearance">@style/AviaryTextAppearance</item>
+        <item name="aviaryTextAppearanceLarge">@style/AviaryTextAppearance.Large</item>
+        <item name="aviaryTextAppearanceMedium">@style/AviaryTextAppearance.Medium</item>
+        <item name="aviaryTextAppearanceSmall">@style/AviaryTextAppearance.Small</item>
+        <item name="aviaryTextAppearanceSmallNoSelection">@style/AviaryTextAppearance.Small.NoSelected</item>
+        <item name="aviaryTextAppearanceInverted">@style/AviaryTextAppearance.Inverted</item>
+        <item name="aviaryTextAppearanceLargeInverted">@style/AviaryTextAppearance.Inverted.Large</item>
+        <item name="aviaryTextAppearanceMediumInverted">@style/AviaryTextAppearance.Inverted.Medium</item>
+        <item name="aviaryTextAppearanceSmallInverted">@style/AviaryTextAppearance.Inverted.Small</item>
     </style>
     
 </resources>

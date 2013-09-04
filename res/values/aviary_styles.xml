@@ -85,7 +85,7 @@
     <style name="AviaryWidget.BottomBar.GalleryItem.Crop"></style>
 
     <style name="AviaryWidget.BottomBar.GalleryItem.Crop.TextView" parent="AviaryWidget.TextView">
-        <item name="android:textAppearance">?textAppearanceMedium</item>
+        <item name="android:textAppearance">?aviaryTextAppearanceMedium</item>
         <item name="android:textSize">16sp</item>
         <item name="android:shadowColor">@android:color/black</item>
         <item name="android:shadowDx">2.0</item>
@@ -229,7 +229,7 @@
     </style>
     
     <style name="AviaryWidget.EffectThumb.Text">
-        <item name="android:textAppearance">?textAppearanceSmallNoSelection</item>
+        <item name="android:textAppearance">?aviaryTextAppearanceSmallNoSelection</item>
         <item name="android:shadowColor">@android:color/black</item>
         <item name="android:shadowDx">0.0</item>
         <item name="android:shadowDy">2.0</item>
@@ -278,7 +278,7 @@
     </style>
     
     <style name="AviaryWidget.IAPDialog.Text">
-        <item name="android:textAppearance">?attr/textAppearanceInverted</item>
+        <item name="android:textAppearance">?attr/aviaryTextAppearanceInverted</item>
         <item name="aviary_typeface">?attr/aviaryFontLight</item>
     </style>
     
@@ -289,12 +289,12 @@
         <item name="android:singleLine">true</item>
         <item name="aviary_typeface">?attr/aviaryFontRegular</item>
         <item name="android:textSize">@dimen/aviary_textSizeIAPTitle</item>
-        <item name="android:textAppearance">?attr/textAppearanceMediumInverted</item>
+        <item name="android:textAppearance">?attr/aviaryTextAppearanceMediumInverted</item>
     </style>
     
     <style name="AviaryWidget.IAPDialog.Text.Description">
         <item name="android:layout_marginTop">5dip</item>
-        <item name="android:textAppearance">?attr/textAppearanceSmallInverted</item>
+        <item name="android:textAppearance">?attr/aviaryTextAppearanceSmallInverted</item>
         <item name="android:maxLines">5</item>
     </style>
     
@@ -353,7 +353,7 @@
     </style>
     
 	<style name="AviaryWidget.IAPDialog.DownloadButton" parent="AviaryWidget.Button">
-        <item name="android:textAppearance">?textAppearanceSmall</item>
+        <item name="android:textAppearance">?aviaryTextAppearanceSmall</item>
         <item name="aviary_typeface">?attr/aviaryFontRegular</item>
         <item name="android:paddingLeft">8dip</item>
         <item name="android:paddingRight">8dip</item>
@@ -516,13 +516,13 @@
     </style>
 
     <style name="AviaryWidget.TextView">
-        <item name="android:textAppearance">?textAppearance</item>
+        <item name="android:textAppearance">?aviaryTextAppearance</item>
         <item name="android:ellipsize">end</item>
         <item name="aviary_typeface">?attr/aviaryFontLight</item>
     </style>
 
     <style name="AviaryWidget.TextView.NavTitle">
-        <item name="android:textAppearance">?textAppearanceLarge</item>
+        <item name="android:textAppearance">?aviaryTextAppearanceLarge</item>
         <item name="android:shadowColor">@android:color/black</item>
         <item name="android:shadowDx">0.0</item>
         <item name="android:shadowDy">2.0</item>
@@ -534,7 +534,7 @@
     </style>
 
     <style name="AviaryWidget.Button.NavButton">
-        <item name="android:textAppearance">?textAppearanceMedium</item>
+        <item name="android:textAppearance">?aviaryTextAppearanceMedium</item>
         <item name="android:background">@drawable/aviary_nav_button_background</item>
         <item name="android:paddingLeft">12dip</item>
         <item name="android:paddingRight">12dip</item>
@@ -548,7 +548,7 @@
     </style>
 
     <style name="AviaryWidget.Button" parent="@style/AviaryWidget.TextView">
-        <item name="android:textAppearance">?textAppearance</item>
+        <item name="android:textAppearance">?aviaryTextAppearance</item>
         <item name="aviary_typeface">?attr/aviaryFontRegular</item>
         <item name="android:background">@drawable/aviary_blue_button_background</item>
         <item name="android:maxLines">1</item>
@@ -579,7 +579,7 @@
         <item name="android:shadowDy">2</item>
         <item name="android:shadowRadius">2</item>
         <item name="android:singleLine">true</item>
-        <item name="android:textAppearance">?textAppearanceMedium</item>
+        <item name="android:textAppearance">?aviaryTextAppearanceMedium</item>
         <item name="aviary_typeface">?aviaryFontRegular</item>
     </style>
 
@@ -730,7 +730,7 @@
     <style name="AviaryDialog.Feedback"></style>
     
 	<style name="AviaryDialog.Feedback.Text">
-        <item name="android:textAppearance">?textAppearanceMedium</item>
+        <item name="android:textAppearance">?aviaryTextAppearanceMedium</item>
         <item name="aviary_typeface">?attr/aviaryFontLight</item>
         <item name="android:layout_marginBottom">16dip</item>
         <item name="android:maxLines">5</item>

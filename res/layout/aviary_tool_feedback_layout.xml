@@ -23,7 +23,7 @@
     <com.aviary.android.feather.widget.AviaryTextView
         android:id="@+id/text"
         style="?attr/aviaryBottomBarToolTextStyle"
-        android:textAppearance="?attr/textAppearance"
+        android:textAppearance="?attr/aviaryTextAppearance"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="16dip"

@@ -256,15 +256,15 @@
 		<attr name="aviaryEdgeEffectDefaultStyle" format="reference" />
         
         <!-- default text appearances -->
-        <attr name="textAppearance" format="reference" />
-        <attr name="textAppearanceLarge" format="reference" />
-        <attr name="textAppearanceMedium" format="reference" />
-        <attr name="textAppearanceSmall" format="reference" />
-        <attr name="textAppearanceSmallNoSelection" format="reference" />
-		<attr name="textAppearanceInverted" format="reference" />
-        <attr name="textAppearanceLargeInverted" format="reference" />
-        <attr name="textAppearanceMediumInverted" format="reference" />
-        <attr name="textAppearanceSmallInverted" format="reference" />        
+        <attr name="aviaryTextAppearance" format="reference" />
+        <attr name="aviaryTextAppearanceLarge" format="reference" />
+        <attr name="aviaryTextAppearanceMedium" format="reference" />
+        <attr name="aviaryTextAppearanceSmall" format="reference" />
+        <attr name="aviaryTextAppearanceSmallNoSelection" format="reference" />
+		<attr name="aviaryTextAppearanceInverted" format="reference" />
+        <attr name="aviaryTextAppearanceLargeInverted" format="reference" />
+        <attr name="aviaryTextAppearanceMediumInverted" format="reference" />
+        <attr name="aviaryTextAppearanceSmallInverted" format="reference" />
         
     </declare-styleable>
     
